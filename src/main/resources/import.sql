@@ -1,0 +1,21 @@
+INSERT INTO maker(id, name) VALUES(1, 'Asus');
+INSERT INTO maker(id, name) VALUES(2, 'Lenovo');
+INSERT INTO maker(id, name) VALUES(3, 'Hewlett-Packard');
+INSERT INTO maker(id, name) VALUES(4, 'Samsung');
+INSERT INTO maker(id, name) VALUES(5, 'Seagate');
+INSERT INTO maker(id, name) VALUES(6, 'Crucial');
+INSERT INTO maker(id, name) VALUES(7, 'Gigabyte');
+INSERT INTO maker(id, name) VALUES(8, 'Huawei');
+INSERT INTO maker(id, name) VALUES(9, 'Xiaomi');
+
+INSERT INTO product(id, name, price, id_maker) VALUES(1, 'Hard Disk SATA3 1TB', 86.99, 5);
+INSERT INTO product(id, name, price, id_maker) VALUES(2, 'RAM Memory DDR4 8GB', 120, 6);
+INSERT INTO product(id, name, price, id_maker) VALUES(3, 'SSD Disk 1 TB', 150.99, 4);
+INSERT INTO product(id, name, price, id_maker) VALUES(4, 'GeForce GTX 1050Ti', 185, 7);
+INSERT INTO product(id, name, price, id_maker) VALUES(5, 'GeForce GTX 1080 Xtreme', 755, 6);
+INSERT INTO product(id, name, price, id_maker) VALUES(6, 'Monitor 24 LED Full HD', 202, 1);
+INSERT INTO product(id, name, price, id_maker) VALUES(7, 'Monitor 27 LED Full HD', 245.99, 1);
+INSERT INTO product(id, name, price, id_maker) VALUES(8, 'Notebook Yoga 520', 559, 2);
+INSERT INTO product(id, name, price, id_maker) VALUES(9, 'Notebook Ideapd 320', 444, 2);
+INSERT INTO product(id, name, price, id_maker) VALUES(10, 'Printer HP Deskjet 3720', 59.99, 3);
+INSERT INTO product(id, name, price, id_maker) VALUES(11, 'Printer HP Laserjet Pro M26nw', 180, 3);
